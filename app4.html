@@ -1,0 +1,142 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<title>Merchandise</title>
+
+<link rel="icon" href="Brand1.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #FFFFFF;  
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  display:block;
+  transition: top 0.3s;
+box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  background-color: #333333;
+  color: #176BEF;
+}
+
+.topnav a.active {
+  background-color: #176BEF;
+  color: #FFFFFF;
+}
+
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 14px;
+  border: none;
+}
+
+
+p {
+     padding-top: 0.01px;
+     padding-left: 4%;
+     
+}
+
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: black;color:white;}
+footer {background: #aaa;color:white;}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+
+
+
+
+
+
+
+</style>
+</head>
+
+
+
+
+
+<body background="#EEEEEE">
+<font  style="font-family:helvetica;" >
+
+<div class="topnav">
+  <a href="index1.html"><b>Home</b></a>
+  <a href="app.html"><b>AppStore</b></a>
+  <a class="active" href="cloth.html"><b>Merchandise</b></a>
+  <a href="software.html"><b>Software</b></a>
+  <div class="search-container">
+
+  </div>
+</div>
+
+<br>
+<p>
+
+
+
+
+<div class="flex-container">
+<header style="background: #EEEEEE">
+  <h1><font style="font-family: helvetica" color="#6F6F6F">Merchandise</font></h1>
+</header>
+
+
+
+<footer style="background: #2D2D2D"><font style="font-family: helvetica" color="#FFFFFF">© Copyright 2018 VerizoBox . All Rights Reserved .</font></footer>
+</div>
+
+
+</body>
+
+</html>
